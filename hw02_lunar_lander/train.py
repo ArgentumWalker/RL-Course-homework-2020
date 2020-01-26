@@ -27,7 +27,7 @@ class DQN:
 
 
 if __name__ == "__main__":
-    env = make("MountainCar-v0")
+    env = make("LunarLander-v2")
     dqn = DQN(state_dim=8, action_dim=4)
     eps = 0.1
     episodes = 1000
