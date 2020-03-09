@@ -1,3 +1,5 @@
+import pybullet_envs
+# Don't forget to install PyBullet!
 from gym import make
 import numpy as np
 import torch
